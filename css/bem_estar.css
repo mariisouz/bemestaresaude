@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Jacques+Francois&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+
+html {
+  scroll-behavior: smooth;
+  }
+body{
+  background-color: #F5F0B6;
+  font-family: "Old Standard TT", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+header{
+  background-color: #96D078;
+  height: 125px;
+  font-family: "Italiana", sans-serif;
+  font-size: 25px;
+  position:fixed;
+  width: 100%;
+}
+nav {
+  height: 125px;
+  width: 100%;
+}
+a:hover {
+  color: #fee900;
+}
+#menu a{
+  color:black;
+  padding: 0 10px;
+  margin-top: 50px;
+  float: inline-start;
+  padding-left: 50px;
+}
+
+#index{
+  background-image:url(../imagens_pratos/fundo-i.jpg);
+  background-repeat: no-repeat; 
+  background-size: 100%;
+  background-attachment: fixed;
+  height: 120vh;
+}
+
+#index p{
+  color: #ffffff;
+  font-size: 30px;
+  margin-top: 150px;
+}
+#texto{
+  background-color: #0a0a0a72;
+}
+#meucarrinho{
+  background-color: #EDE263;
+  height: auto;
+}
+.entrega{
+
+margin-left: 50px;
+ width: 400px;
+ height: auto;
+ background-color: #65AF40;
+}
+.pedidos{
+  width: 400px;
+  height: auto;
+  margin-left: 800px;
+  margin-top: -253px;
+  background-color: #65AF40;
+}
+#rodape{
+text-align: center;
+background-color: #5eaf36;
+height: auto;
+}
+h1{
+  font-family: "italiana", sans-serif;
+ font-size: 2.3rem;
+}
+section{
+  background-color: #EDE263;
+}
+.button {
+  background-color: #f3e22b;
+  width: 150px;
+  height: 60px;
+  font-family: "Old Standard TT", sans-serif;
+  font-size: 23px;
+}
+.enviar_pedidos{
+  background-color: #e0de35;
+  font-family: "Old Standard TT", sans-serif;
+  width: auto;
+  height: 35px;
+  font-size: 18px;
+}
+.apagar_pedidos{
+  background-color: #e0de35;
+  font-family: "Old Standard TT", sans-serif;
+  width: auto;
+  height: 35px;
+  font-size: 18px;
+}
+.envio_entrega{
+  background-color: #e0de35;
+  font-family: "Old Standard TT", sans-serif;
+  width: auto;
+  height: 35px;
+  font-size: 18px;
+}
+.apagar_entrega{
+  background-color: #e0de35;
+  font-family: "Old Standard TT", sans-serif;
+  width: auto;
+  height: 35px;
+  font-size: 18px;
+}
